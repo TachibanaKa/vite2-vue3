@@ -2,7 +2,12 @@
   <div>
     <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Hello Vue 3 + Vite" />
-  jj
+  <!--  <div id='nav'>
+      <router-link to='/'> Home</router-link>
+      <router-link to='/contact'>Contact </router-link>
+    </div>
+    <router-view /> -->
+
   </div>
 </template>
 

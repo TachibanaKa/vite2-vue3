@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
+    <h1>{{msg }}</h1>
 
   <p>
     <a href="https://vitejs.dev/guide/features.html" target="_blank">Vite Documentation</a> |
@@ -28,7 +28,8 @@
 
 <script setup>
 import { defineProps, reactive } from 'vue'
-
+import {login} from '../../http/api'
+login({account:1,password:1})
 defineProps({
   msg: String
 })

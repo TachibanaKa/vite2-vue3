@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 axios.defaults.timeout = 5000;
-axios.defaults.baseURL ='';
+axios.defaults.baseURL = import.meta.env.VITE_APP_BASE_URL;
 
 
 //http request 拦截器

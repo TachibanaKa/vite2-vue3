@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.35",
     "element3": "^0.0.39",
     "esbuild": "^0.8.57",
     "sass": "^1.32.8",
